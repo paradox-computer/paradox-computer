@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script> // enforce https encryption 
+           var loc = window.location.href+'';
+           if (loc.indexOf('http://')==0){
+               window.location.href = loc.replace('http://','https://');
+           }
+    </script>
+<title>HTML5 Email Samples</title>
+
+<style type="text/css">
+
+body{
+	background-color:#dcdcdc
+}
+
+h1, h2 {
+	font-family: sans-serif;
+    margin-left: 13.5em;
+    font-size: 1.2em;
+
+}
+
+a{
+	color:#129698;
+}
+
+</style>
+</head>
+<body>
+	<br>
+<h1>HTML5 Emails</h1>
+
+	<h2><a href="v2/index.html">Fully Responsive Email</a></h2>
+
+	<h2><a href="v1/index.html">Fully Adaptive Email</a></h2>
+</body>
+</html>

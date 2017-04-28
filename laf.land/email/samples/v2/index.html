@@ -1,0 +1,738 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script> // enforce https encryption 
+           var loc = window.location.href+'';
+           if (loc.indexOf('http://')==0){
+               window.location.href = loc.replace('http://','https://');
+           }
+    </script>
+<meta name="viewport"   content="width=device-width, initial-scale=1.0" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no" /> 
+<meta http-equiv=”X-UA-Compatible” content=”IE=edge” />
+
+<title>Candy - Sample</title>
+
+<style type="text/css">
+
+/****** BUG FIXES DO NOT TOUCH  ********/
+
+    /* Forces Hotmail to display emails at full width */
+    .ExternalClass       { width:100%; } 
+    /* Forces Hotmail to display normal line spacing*/
+    .ExternalClass, 
+    .ExternalClass p, 
+    .ExternalClass span,
+    .ExternalClass font, 
+    .ExternalClass td, 
+    .ExternalClass div      { line-height: 100%; }
+
+    /* Prevents Webkit and Windows Mobile platforms from changing default font sizes. */    
+    body                    { 
+                            -webkit-text-size-adjust:none; 
+                            -ms-text-size-adjust:none; 
+                            } 
+
+    /* Resets all body margins and padding to 0 */         
+    body                    { margin:0; padding:0; } 
+
+
+    /*Resolves Outlook 07/10 and Gmail td padding*/
+    table td                { border-collapse:collapse; } 
+
+/****** END BUG FIXES ********/
+
+
+
+
+
+/****** RESETTING DEFAULTS********/
+
+    /* This sets a clean slate for all clients EXCEPT Gmail. But avoid using P tags*/
+    p                       { 
+                            margin:0; 
+                            padding:0; 
+                            margin-bottom:0; 
+                            }
+
+    /* Overwrites Hotmails default css*/           
+    h1, h2, h3, h4, h5, h6  {
+                            color: black; 
+                            line-height: 100%; 
+                            }
+
+
+    /*Fixes Firefox bolding */
+    strong, b {
+    font-weight: bold;
+    }
+
+
+    
+     /* 
+        Embedded CSS link color.  Overwrites Hotmail and Yahoo Beta's embedded link colors.
+        Dev NEEDS TO UPDATE THIS COLOR PER PROJECT!! 
+    */
+    a, a:link               {
+                            color:#000000;    
+                            text-decoration: underline;
+                            } 
+
+    /*Fixes Outlook blue lines */
+     href>a {text-decoration: none; }
+     
+
+/****** END RESETTING DEFAULTS ********/
+
+
+
+
+
+/****** EDITABLE STYLES  ********/
+
+    body, #body_style       {
+                            margin: 0 auto;
+                            background:#eaeaea;
+                            min-height:1000px;
+                            color:#000000;
+                            font-family:Arial, Helvetica, sans-serif;
+                            font-size:10px;
+                            } 
+
+    /*Destroys Yahoo shortcuts */
+    span.yshortcuts         { 
+                            color:#000; 
+                            background-color:none; 
+                            border:none;
+                            }
+
+    span.yshortcuts:hover,
+    span.yshortcuts:active,
+    span.yshortcuts:focus   {
+                            color:#000; 
+                            background-color:none; 
+                            border:none;
+                            }
+
+    /*Put default link color here*/
+    a span                  { color:#3e3f3f; }
+    /*a[class="bodyLink"]   {
+        color:#5b5b5b;
+        text-decoration:none;
+    }*/    /*If unable to "fix" gmail or other email clients from wrapping phone numbers, unlinked websites, email addresses, add this class to the anchor tags and customize color and other styles accordingly */
+
+    /*Restyles blue phone numbers */
+     a[href^=tel]{ color:#000000; text-decoration:none;}
+
+     a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    /*Optimizing for mobile devices */
+/*    @media only screen and (max-device-width: 599px)    {*/
+    @media only screen and (max-width: 599px)    {
+          
+        table[class="table"], 
+        td[class="cell"]    { 
+            width: 100% !important; 
+            /* part of the gmail-android fluid-image fix, make sure devices that recognize media queries have no min-width */
+            min-width:0 !important; 
+        }
+
+        td[class="stack"] {
+            display:block !important;
+            width:100% !important;
+            height: auto !important;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            padding-top:5px !important;
+            padding-bottom:5px !important;
+            text-align: center !important;
+            
+        }
+
+        
+
+        img[class="fluid"] {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        td[class="top_logo"] {
+            width: 45% !important;
+            height:auto !important;
+            padding-left:5px;
+            padding-right:2px;
+        }
+
+        td[class="top_isi"] {
+            padding-right:5px !important;
+        }
+
+       
+
+        td[class="bubbles"] {
+            width: 36% !important;
+            height:auto !important;
+        }
+
+        td[class="cta_copy"] {
+            padding-right:10px !important;
+
+        }
+
+        td[class="body_padding"] {
+            padding-left:5px !important;
+            padding-right:10px !important;
+
+        }
+
+        td[class="text_column"] {
+            width:57% !important;
+            padding-left:5px !important;
+            padding-right:10px !important;
+
+        }
+
+         td[class="cta_body"] {
+            font-size: 14px !important;
+            line-height:16px !important;
+            padding-right:10px !important;
+        }
+            
+        
+
+        img[class="isi_cta"],
+        img[class="quart_sm"],
+        img[class="scd_cta"] {
+            width: 85% !important;
+            height:auto !important;
+        }
+
+        img[class="isi_cta"] {
+            width:60% !important;
+        }
+
+        img[class="cta"]{
+            width: 95% !important;
+            height:auto !important;
+        }
+
+    
+
+        td[class="headline"]{
+            font-size: 18px !important;
+            line-height:20px !important;
+            padding-right:10px !important;
+        }
+
+        td[class="body_copy"]{
+            font-size: 14px !important;
+            line-height:16px !important;
+            padding-left:5px !important;
+            padding-right:10px !important;
+        }
+        td[class="inner_body_copy"] {
+            font-size: 14px !important;
+            line-height: 16px !important;
+        }
+        td[class="hide"],
+        table[class="hide"],
+        br[class="hide"],
+        span[class="hide"] {
+            display:none !important;
+        }
+        .font-11 {
+            font-size: 12px !important;
+            line-height:14px !important;
+        }
+        .font-12 {
+            font-size: 13px !important;
+            line-height: 15px !importants;
+        }
+        .font-14 {
+            font-size: 14px !important;
+        }
+        .short {
+            height: 15px;
+        }
+        
+    }
+
+
+/*** END EDITABLE STYLES ***/
+
+</style><!--end style-->
+
+</head>
+
+<!--body: Setting topmargin, bottommargin, leftmargin, rightmargin, marginheight and marginwidth are set to "0" to account for a specific vendor (BUDCO) issue in Outlook -->
+<body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" marginheight="0" marginwidth="0" style="padding:0; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%; background-color:#ffffff; min-height:1000px;">   
+    <style type="text/css">
+        div.preheader 
+        { display: none !important; } 
+    </style>
+    <div class="preheader" style="font-size:1px;color:#ffffff;display:none !important;">Candy<sup>&reg;</sup> (sumatriptan iontophoretic transdermal system)—a different way to migraine relief</div>
+    <div id="body_style" style="padding:0px" bgcolor="#eaeaea">
+        
+        <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#eaeaea">
+            <tr>
+                <td align="center" valign="top">
+
+                    <!--Header-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+                        <tr>
+                            <td class="stack" height="30"  align="left" style="font-family: Helvetica, Arial, sans-serif;font-size:12px;color:#3e3f3f; padding-left:10px">Candy<sup>&reg;</sup> (Wafer donut tiramisu icing jujubes cookie)—a different ice cream candy lollipop</td>
+                        </tr>
+                        <tr>
+                            <td class="stack" height="30" align="right"  style="font-family: Helvetica, Arial, sans-serif;font-size:12px;color:#3e3f3f;padding-right:5px;">Can’t read this email? View&nbsp;<a href="#" target="_blank" style="text-decoration:underline;color:#239cdc;">here</a></td> 
+                                    
+                        </tr>
+                    </table>
+
+                    <!--Headline-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#ff00cf">
+                        <tr>
+                            <td align="center" colspan="4" height="35" bgcolor="#e22ee2" style="font-family: Helvetica, Arial, sans-serif;font-size:18px;color:#ffffff;" class="short"><span class="hide">Gummies Halvah <strong>Cheesecake </strong></span></td>
+                        </tr>
+                    </table>
+
+                    <!--Top ISI-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#54bceb">
+                        <tr>
+                            <td colspan="4" height="15" style="font-size:15px;line-height:15px;"></td>
+                        </tr>
+                        <tr>
+                            <td width="20" class="hide"></td>
+                            <td align="left" valign="top" class="top_logo">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="left" valign="top"><img src="images/candy.png" class="fluid" width="197" height="105" style="display:block" border="0" alt="CANDY " /></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="20" class="hide"></td>
+                            <td align="left" class="top_isi">
+                                <table cellspacing="0" cellspacing="0">
+                                    <tr>
+                                        <td style="font-family: Helvetica, Arial, sans-serif;font-size:14px;line-height:18px;color:#ffffff;font-weight:bold;"><span class="font-12" style="font-size:16px; text-transform: all-caps">Sweet powder muffin</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="8" style="font-size:8px;line-height:8px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family: Helvetica, Arial, sans-serif;font-size:14px;line-height:18px;color:#ffffff;font-weight:bold;" class="font-11">Jelly beans cotton candy chocolate cake. Biscuit chupa chups cookie pastry fruitcake lemon drops.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><a href="#ISI"><img src="images/read.gif" class="isi_cta" style="display:block" alt="Read More" title="Read More" width="188" height="38" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    
+
+                    <!--Treatment-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#f1f1f1">
+                        <tr>
+                            <td width="5" class="hide"></td>
+                            <td align="left" valign="middle" class="body_padding">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="left"><img src="images/treatment.jpg" class="fluid" width="224" height="157" style="display:block" border="0" alt="Different way to treat migraine" title="Different way to treat migraine" /></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="10" class="hide"></td>
+                            <td align="left" class="text_column">
+                                <table cellspacing="0" cellspacing="0">
+                                    <tr>
+                                        <td height="20" style="font-size:20px;line-height:20px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="headline" style="font-family: Helvetica, Arial, sans-serif;font-size:28px;line-height:32px;color:#239cdc;">Oat cake topping marshmallow sweet roll.</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10" style="font-size:10px;line-height:10px;"></td>
+                                    <tr>
+                                        <td class="body_copy" style="font-family: Helvetica, Arial, sans-serif;font-size:21px;line-height:25px;color:#3e3f3f;">Chocolate bar dragée cake marzipan tiramisu pastry cupcake jelly-o.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><a href="https://laf.land" target="_blank"><img src="images/more.gif" class="scd_cta" style="display:block" alt="Explore Migraine" title="Explore Migraine" width="273" height="51" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="10" class="hide"></td>
+                        </tr>
+                    </table> 
+
+                    <!--Grey bar-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#e4e4e4">
+                        <tr>
+                            <td height="2" width="100%" bgcolor="#e4e4e4" style="font-size:2px;line-height:2px;"></td>
+                        </tr>
+                    </table>
+
+                    <!--Patch-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+                        <tr>
+                            <td width="20" class="hide"></td>
+                            <td align="left" valign="middle" class="body_padding">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="left"><img src="images/migraine.jpg" class="fluid" width="185" height="185" style="display:block" border="0" alt="Candy for migraine treatment" title="Candy for migraine treatment" /></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="30" class="hide"></td>
+                            <td align="left" class="text_column">
+                                <table cellspacing="0" cellspacing="0">
+                                    <tr>
+                                        <td height="20" style="font-size:20px;line-height:20px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="headline" style="font-family: Helvetica, Arial, sans-serif;font-size:28px;line-height:32px;color:#239cdc;"><strong>Jelly beans bonbon cake</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10" style="font-size:10px;line-height:10px;"></td>
+                                    <tr>
+                                        <td class="inner_body_copy" style="font-family: Helvetica, Arial, sans-serif;font-size:21px;line-height:25px;color:#3e3f3f;">Candy is not a pill— Danish tootsie roll soufflé donut cheesecake sesame snaps icing.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><a href="http://Candy.com/AboutCandy.aspx" target="_blank"><img src="images/learn.gif" class="scd_cta" style="display:block" alt="About Candy" title="About Candy" width="273" height="51" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="10" class="hide"></td>
+                        </tr>
+                    </table> 
+
+                    <!--Grey bar-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#e4e4e4">
+                        <tr>
+                            <td height="2" width="100%" bgcolor="#e4e4e4" style="font-size:2px;line-height:2px;"></td>
+                        </tr>
+                    </table>
+
+                    <!--Delivery-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+                        <tr>
+                            <td width="25" class="hide"></td>
+                            <td align="left" valign="middle" class="body_padding">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="left"><a href="#" target="_blank"><img src="images/delivery.jpeg" class="fluid" width="173" height="204" style="display:block" border="0" alt="4 hours controlled delivery" title="4 hours controlled delivery" /></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="35" class="hide"></td>
+                            <td align="left" class="text_column">
+                                <table cellspacing="0" cellspacing="0">
+                                    <tr>
+                                        <td height="20" style="font-size:20px;line-height:20px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="headline" style="font-family: Helvetica, Arial, sans-serif;font-size:28px;line-height:32px;color:#239cdc;"><strong>The difference</strong> is in the&nbsp;sugar</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10" style="font-size:10px;line-height:10px;"></td>
+                                    <tr>
+                                        <td class="inner_body_copy" style="font-family: Helvetica, Arial, sans-serif;font-size:21px;line-height:25px;color:#3e3f3f;">Candy delivers sugar over a 2-hour period through the stomach and into the bloodstream.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><a href="http://Candy.com/AboutCandy.aspx" target="_blank"><img src="images/more.gif" class="scd_cta" style="display:block" alt="Find Out More" title="Find Out More" width="273" height="51" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="10" class="hide"></td>
+                        </tr>
+                    </table> 
+
+                    <!--Grey bar-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#e4e4e4">
+                        <tr>
+                            <td height="2" width="100%" bgcolor="#e4e4e4" style="font-size:2px;line-height:2px;"></td>
+                        </tr>
+                    </table>
+
+                    <!--Treat-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+                        <tr>
+                            <td width="20" class="hide"></td>
+                            <td align="left" valign="middle" class="body_padding">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="left"><a href="#" target="_blank"><img src="images/learn.png" class="fluid" width="185" height="185" style="display:block" border="0" alt="Candy Alt" title="Candy Alt" /></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="30" class="hide"></td>
+                            <td align="left" class="text_column">
+                                <table cellspacing="0" cellspacing="0">
+                                    <tr>
+                                        <td height="20" style="font-size:20px;line-height:20px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="headline" style="font-family: Helvetica, Arial, sans-serif;font-size:28px;line-height:32px;color:#239cdc;">
+                                        Pastry tiramisu caramels danish <strong>icing sugar plum sweet roll</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10" style="font-size:10px;line-height:10px;"></td>
+                                    <tr>
+                                        <td class="inner_body_copy" style="font-family: Helvetica, Arial, sans-serif;font-size:21px;line-height:25px;color:#3e3f3f;">Gummi bears gummies marzipan sweet jelly-o pastry cotton candy bonbon powder.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"><a href="http://Candy.com/AboutMigraine.aspx" target="_blank"><img src="images/learn.gif" class="scd_cta" style="display:block" alt="Learn More" title="Learn More" width="273" height="51" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="10" class="hide"></td>
+                        </tr>
+                    </table> 
+
+                    
+
+                    <!--Final Body-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+                        <tr>
+                            <td colspan="3" height="15" style="font-size:15px;line-height:15px;"></td>
+                        </tr>
+                        <tr>
+                            <td width="20" class="hide"></td>
+                            <td class="body_copy" align="left" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#3e3f3f;">Candy is not a prescription medicine used for the acute treatment hungar.  Pastry tiramisu caramels danish icing sugar plum sweet roll.
+                            <br /><br />
+                            Candy is used for people who have been told by a healthcare provider that they have low blood sugar. Marshmallow bear claw tiramisu jujubes jelly tiramisu liquorice. Biscuit soufflé sweet lemon drops tiramisu pudding wafer</td>
+                            <td width="20" class="hide"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" height="15" style="font-size:15px;line-height:15px;"></td>
+                        </tr>
+                    </table>
+
+                    <!--ISI-->
+                    <table class="table" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+                        <tr>
+                            <td width="20" class="hide"></td>
+                            <td class="body_padding" align="left">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <a name="ISI"><td align="left" class="headline" style="font-family: Helvetica, Arial, sans-serif; font-size: 28px; line-height: 32px; text-transform:uppercase;font-weight:bold;color: #239cdc">Ice Cream Sesame Snaps</td></a>
+                                    </tr>
+                                    <tr>
+                                        <td height="20" style="font-size:20px;line-height:20px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="font-14" align="left" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#3e3f3f;"><strong>What important information should I know about Candy?<br/>Fruitcake cake pastry marshmallow pastry. Ice cream sesame snaps biscuit.
+                                        <br /><br />
+                                        Stop using Candy Liquorice jujubes cookie marzipan carrot cake gingerbread sugar plum tootsie roll.</strong>
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                 <tr>
+                                                    <td valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">Powder chocolate cake sugar plum sugar plum sweet pastry lollipop chocolate chocolate. Halvah wafer halvah</td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">jelly beans fruitcake chupa chups topping cookie </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">sesame snaps powder</td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">muffin cupcake biscuit</td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">liquorice jujubes cookie </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">feeling lightheaded</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10" colspan="3" style="font-size:10px;line-height:10px;"></td>
+                                                </tr>
+                                            </table>
+                                        Candy is not for people with risk factors for lollipop jelly-o gummies ice cream candy lollipop
+                                        <br /><br />
+                                        <strong>Who should not use Candy?</strong>
+                                        <br /><br />
+                                        <strong>Do not use Candy if you have:</strong>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td height="15" colspan="3" style="line-height:15px;font-size:15px;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">candy toffee bear claw</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">Caramels dragée sesame snaps biscuit icing</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">drops candy canes caramels candy canes pudding</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">plum tootsie roll</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">Danish oat cake cheesecake dragée dragée gingerbread
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">Liquorice jujubes cookie marzipan carrot cake gingerbread sugar plum tootsie roll.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f"> fruitcake soufflé</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-14" valign="top" align="left" style="font-family:Arial,Helvetica,sans-serif;font-size:16x;color:#81bc41;">&bull;</td>
+                                                    <td width="3"></td>
+                                                    <td class="font-14" align="left" style="font-family: Helvetica, sans-serif; font-size: 16px; line-height: 1.25; color: #3e3f3f">bonbon gingerbread icing cake caramels caramels carrot cake</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15" colspan="3" style="line-height:15px;font-size:15px;"></td>
+                                                </tr>
+                                            </table>                              
+                                 
+                                       
+                                        <strong>Soufflé chocolate toffee </strong> chocolate sweet roll jelly macaroon croissant biscuit. Marzipan sesame snaps sesame snaps jelly-o carrot cake. Liquorice jujubes cookie marzipan carrot cake gingerbread sugar plum tootsie roll.
+                                        <br /><br />
+                                       Muffin bonbon gingerbread icing cake caramels caramels carrot cake. Danish oat cake cheesecake dragée dragée gingerbread. Jujubes gingerbread apple pie cheesecake candy canes carrot cake croissant.
+                                        <br /><br />
+                                       Plum sugar plum sweet pastry lollipop chocolate chocolate. Halvah wafer halvah.
+                                        <br /><br />
+                                        You are encouraged to report negative side effects of candy to the FDA. Visit <a href="http://www.fda.gov/medwatch" target="_blank" style="text-decoration:none;color:#3e3f3f;">www.fda.gov/medwatch</a> or call <span>1</span>-<span>800</span>-FDA-<span>1088</span>.
+                                        <br /><br />
+                                        <strong>Please read the <a href="http://Candy.com/PDF/PatientInformationLeaflet.pdf" target="_blank" style="text-decoration:underline;color:#239cdc;">Candy Information</a> and <a href="#">Instructions for Eating</a> in the <a href="http://laf.land/jordan.lafland.pdf" target="_blank" style="text-decoration:underline;color:#239cdc;">Full Candy Information</a> for Chocolate.</strong>
+                                        
+                                        </td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                    <tr> 
+                                        <td align="left"><a href="#" target="_blank"><img src="images/privacy.gif" alt="Privacy Notice" title="Privacy Notice" width="110" height="29" style="display:block"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15" style="font-size:15px;line-height:15px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="font-family: Helvetica, sans-serif; font-size: 14px;line-height: 1.25; color: #3e3f3f">You have received this email because you enrolled at <a href="http://Candy.com" target="_blank" style="text-decoration:underline;color:#239cdc;">Candy.com</a> or related Web sites. If you do not wish to receive Candy emails from this sender, you can <a href="#" target="_blank" style="text-decoration:underline;color:#239cdc;">unsubscribe here</a>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="15"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="font-family:Helvetica,sans-serif;font-size:14px;color:#3e3f3f;">CANDY COMPANY<br/>11100 Surgar Ave<br/>Candy Park, MI 66211</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="45" style="font-size:45px;line-height:45px;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="20" class="hide"></td>
+                        </tr>
+                    </table>
+
+                    
+
+
+                    <!--Footer-->
+                    <table cellpadding="0" class="table" cellspacing="0" width="600" bgcolor="#FFFFFF">
+                        <tr>
+                            <td class="hide" width="20"></td>
+                            <td align="left">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td class="body" align="left" >
+                                            <table align="left" cellpadding="0" cellspacing="0" width="117">
+                                                <tr>
+                                                    <td align="left" class="body_padding"><img src="images/candy.jpg" width="117" height="57" border="0" alt="Candy Company" title="TEVA CNS" style="display:block;" /></td>
+                                                </tr>
+                                            </table>
+                                            <table align="left" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td height="30" colspan="2"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="hide" width="15"></td>
+                                                    <td class="body_padding" style="font-family:Helvetica,sans-serif;font-size:13px;color:#3e3f3f;"> &copy; 2017 CANDY COMPANY  USA, Inc. <nobr>All rights reserved.</nobr><br class="hide" /> CANDY-010101 March 2017</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td align="left" width="10"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40" style="font-size:40px;line-height:40px;"></td>
+                        </tr>
+                    </table>             
+                </td>
+            </tr>               
+        </table><!--end #main-table-->
+    </div><!--end #body_style-->
+</body><!--end body-->
+</html><!--end html-->
