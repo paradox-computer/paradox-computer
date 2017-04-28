@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1116.2025"
+   height="888.26135"
+   id="svg7111"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="basis3.svg"
+   inkscape:export-filename="/home/jsoon/Documents/basis3.png"
+   inkscape:export-xdpi="17.738716"
+   inkscape:export-ydpi="17.738716">
+  <defs
+     id="defs7113">
+    <filter
+       inkscape:collect="always"
+       id="filter5114"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.1125308"
+         id="feGaussianBlur5116" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.31"
+     inkscape:cx="111.89334"
+     inkscape:cy="608.24207"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1230"
+     inkscape:window-height="883"
+     inkscape:window-x="28"
+     inkscape:window-y="216"
+     inkscape:window-maximized="0"
+     inkscape:snap-to-guides="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-nodes="false"
+     showborder="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7121"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-29.933495,208.56916"
+       id="guide7352" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="126.88469,777.88734"
+       id="guide7514" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="553.02105,767.66007"
+       id="guide7516" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1047.6197,774.33736"
+       id="guide7539" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="405.03757,412.14379"
+       id="guide8415" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="401.84125,376.98426"
+       id="guide8417" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7116">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="bottom"
+     transform="translate(50.748323,83.101259)">
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 828.67444,528.40935 c 60.42374,0.15397 86.47059,5.00001 86.47059,5.00001"
+       id="path3632-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.61562,528.40935 c -60.42374,0.15397 -86.47059,5.00001 -86.47059,5.00001"
+       id="path3632-9-08"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.61562,673.01423 c -60.42374,0.15397 -86.47059,5.00001 -86.47059,5.00001"
+       id="path3632-9-08-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 828.49179,672.92291 c 60.42374,0.15397 86.65324,5.09133 86.65324,5.09133"
+       id="path3632-8-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.87968,817.61914 c -60.42374,0.15397 -86.47059,5.00001 -86.47059,5.00001"
+       id="path3632-9-08-7-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 390.9385,817.61914 c 60.42374,0.15397 86.47059,5.00001 86.47059,5.00001"
+       id="path3632-8-2-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.61562,962.1915 c -60.42374,0.15397 -86.47059,5.00001 -86.47059,5.00001"
+       id="path3632-9-08-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 390.67444,962.1915 c 60.42374,0.15397 86.47059,5.00001 86.47059,5.00001"
+       id="path3632-8-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 626.09979,963.07238 c -60.42374,0.15397 -86.47059,5.00001 -86.47059,5.00001"
+       id="path3632-9-08-5-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 829.15861,963.07238 c 60.42374,0.15397 86.47059,5.00001 86.47059,5.00001"
+       id="path3632-8-3-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 625.85645,817.61914 c -60.42374,0.15397 -86.47059,5.00001 -86.47059,5.00001"
+       id="path3632-9-08-7-4-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 828.91527,817.61914 c 60.42374,0.15397 86.47059,5.00001 86.47059,5.00001"
+       id="path3632-8-2-2-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 477.10432,822.54671 c 16.72537,3.62049 22.13704,7.20645 21.95689,10.01483"
+       id="path8426-1" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 476.6831,967.11445 c 16.72537,3.62049 22.22483,7.29424 22.04468,10.10262"
+       id="path8426-1-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 539.68794,470.20856 c -16.72537,3.62049 -22.13704,7.20645 -21.95689,10.01483"
+       id="path8426-1-9" />
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 540.1589,615.60228 c -16.72537,3.62049 -22.47631,7.27822 -22.29616,10.0866"
+       id="path8426-1-9-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.21001,609.79531 205.66888,0"
+       id="path3694-6-9-0-6-6"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 626.00994,610.70856 205.66888,0"
+       id="path3694-6-9-0-6-5"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 185.26082,465.17896 205.75219,0"
+       id="path3694-6-9-6-1-5"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 623.50254,465.27028 205.75219,0"
+       id="path3694-6-9-6-1-76"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 185.2016,176.04845 643.68598,0"
+       id="path3694-6-9-6-5"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.21073,320.58317 643.68597,0"
+       id="path3694-6-9-6-9"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(50.748323,-269.26092)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 69.47835,474.30043 c 16.66667,-40 33.46164,0 33.46164,0"
+       id="path3628"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 61.14502,544.75705 c 0.25661,-48.91446 8.515978,-70.82192 8.515978,-70.82192"
+       id="path3632"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 111.14502,544.84838 c -0.25661,-48.91446 -8.42465,-71.0959 -8.42465,-71.0959"
+       id="path3632-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 69.47835,1030.3004 c 16.66667,40 33.55296,-0.3653 33.55296,-0.3653"
+       id="path3628-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 61.14502,963.04016 c 0.25661,48.91444 8.424654,67.53424 8.424654,67.53424"
+       id="path3632-9"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37900066;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 111.14502,963.35379 0,-418.99703"
+       id="path3694-6"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 111.14502,960.30043 c -0.25661,48.91447 -8.33333,69.99997 -8.33333,69.99997"
+       id="path3632-7-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 917.29571,474.75705 c 16.66666,-40 33.73561,0.18265 33.73561,0.18265"
+       id="path3628-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 909.14502,544.30043 c 0.25661,-48.91446 8.33334,-70 8.33334,-70"
+       id="path3632-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 959.14502,544.66573 c -0.25661,-48.91446 -8.33333,-70.3653 -8.33333,-70.3653"
+       id="path3632-7-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 917.47836,1030.3004 c 16.66666,40 33.46164,0 33.46164,0"
+       id="path3628-3-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 909.14502,960.30043 c 0.25661,48.91447 8.51599,70.45657 8.51599,70.45657"
+       id="path3632-9-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 959.14502,960.30043 c -0.25661,48.91447 -8.33333,70.36527 -8.33333,70.36527"
+       id="path3632-7-4-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37900019;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 909.15892,963.0764 0,-420.66559"
+       id="path3694-6-8"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <text
+       xml:space="preserve"
+       style="font-size:74.42832184px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="77.663834"
+       y="376.28952"
+       id="text5181"
+       transform="scale(0.86300391,1.1587433)"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049"><tspan
+         sodipodi:role="line"
+         id="tspan5183"
+         x="77.663834"
+         y="376.28952"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:74.42832184px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="1059.7186"
+       y="376.28952"
+       id="text5181-7"
+       transform="scale(0.86300391,1.1587433)"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049"><tspan
+         sodipodi:role="line"
+         id="tspan5183-1"
+         x="1059.7186"
+         y="376.28952"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">B</tspan></text>
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 101.60165,967.10019 c -49.411759,10 0.0913,20.1683 0.0913,20.1683"
+       id="path3628-3-8-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <g
+       transform="matrix(0.4830775,0,0,0.4031497,693.50374,797.31747)"
+       id="g4453"
+       style="fill:#1a1a1a;stroke:#1a1a1a;display:inline"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835"
+         d="m 16.949153,381.85371 c 65.254237,22.88135 105.932207,29.66101 105.932207,29.66101 l -74.576275,0.84746 c 0,0 2.777516,5.39283 -3.389831,-7.62712 -7.627119,-16.10169 -27.118643,-22.0339 -27.966101,-22.88135 z"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7"
+         d="M 16.619503,442.87065 C 81.873743,419.9893 122.55171,413.20964 122.55171,413.20964 l -74.576267,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 914.68841,533.31804 c 49.41176,10 0.27397,20.07698 0.27397,20.07698"
+       id="path3628-33"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 101.419,533.31804 c -49.411757,10 0.7306,20.25962 0.7306,20.25962"
+       id="path3628-3-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <g
+       style="fill:#ff0000;stroke:#ff0000;display:inline"
+       transform="matrix(0.4830775,0,0,0.4031497,446.50056,361.84316)"
+       id="g4453-9"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-6"
+         d="m 16.949153,381.85371 c 65.254237,22.88135 105.932207,29.66101 105.932207,29.66101 l -74.576275,0.84746 c 0,0 2.777516,5.39283 -3.389831,-7.62712 -7.627119,-16.10169 -27.118643,-22.0339 -27.966101,-22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-75"
+         d="M 16.619503,442.87065 C 81.873743,419.9893 122.55171,413.20964 122.55171,413.20964 l -74.576267,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 914.96238,678.01424 c 49.41176,10 -0.18265,20.07698 -0.18265,20.07698"
+       id="path3628-33-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 101.51033,677.92292 c -49.411763,10 -0.0913,20.1683 -0.0913,20.1683"
+       id="path3628-3-8-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <g
+       style="fill:#ff0000;stroke:#ff0000;display:inline"
+       transform="matrix(0.4830775,0,0,0.4031497,448.0062,506.71837)"
+       id="g4453-9-5"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-6-1"
+         d="m 16.949153,381.85371 c 65.254237,22.88135 105.932207,29.66101 105.932207,29.66101 l -74.576275,0.84746 c 0,0 2.777516,5.39283 -3.389831,-7.62712 -7.627119,-16.10169 -27.118643,-22.0339 -27.966101,-22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-75-6"
+         d="M 16.619503,442.87065 C 81.873743,419.9893 122.55171,413.20964 122.55171,413.20964 l -74.576267,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       style="display:inline"
+       id="g3906-9"
+       transform="matrix(0,-0.38805784,-0.47878715,0,1304.8235,652.17658)"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-2-6"
+         d="m 38.818231,690.46547 c 65.254239,22.88135 105.932209,29.66101 105.932209,29.66101 l -74.576279,0.84746 c 0,0 2.77752,5.39283 -3.38983,-7.62712 -7.62712,-16.10169 -27.11864,-22.0339 -27.9661,-22.88135 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.62868214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-7-4"
+         d="M 38.488581,751.48241 C 103.74282,728.60106 144.42079,721.8214 144.42079,721.8214 l -74.576269,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.62868214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 959.14502,544.30042 0,417.83618"
+       id="path3694-4"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902546;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 532.96477,968.41406 0,-92.82149"
+       id="path3694-6-6"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 491.33839,807.70757 c 16.66666,-40 33.46164,0 33.46164,0"
+       id="path3628-2-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 483.00505,877.70757 c 0.25661,-48.91446 8.51599,-70.45662 8.51599,-70.45662"
+       id="path3632-0-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 533.00505,877.70757 c -0.25661,-48.91446 -8.42465,-70.54795 -8.42465,-70.54795"
+       id="path3632-7-7-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 491.15574,1031.251 c 16.66666,39.9999 33.73561,-0.091 33.73561,-0.091"
+       id="path3628-3-3-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 483.00505,961.70757 c 0.25661,48.91443 8.33334,70.00003 8.33334,70.00003"
+       id="path3632-9-0-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902403;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 533.00505,961.70757 c -0.25661,48.91443 -8.33333,70.00003 -8.33333,70.00003"
+       id="path3632-7-4-7-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <text
+       xml:space="preserve"
+       style="font-size:64px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="569.25897"
+       y="670.17365"
+       id="text5181-7-8"
+       transform="scale(0.86300391,1.1587433)"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049"><tspan
+         sodipodi:role="line"
+         id="tspan5183-1-7"
+         x="569.25897"
+         y="670.17365"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">R</tspan></text>
+    <g
+       style="display:inline"
+       id="g3906-9-3"
+       transform="matrix(0,0.38805784,-0.47878715,0,406.09262,878.20365)"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-2-6-7"
+         d="m 38.818231,690.46547 c 65.254239,22.88135 105.932209,29.66101 105.932209,29.66101 l -74.576279,0.84746 c 0,0 2.77752,5.39283 -3.38983,-7.62712 -7.62712,-16.10169 -27.11864,-22.0339 -27.9661,-22.88135 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.62868214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-7-4-1"
+         d="M 38.488581,751.48241 C 103.74282,728.60106 144.42079,721.8214 144.42079,721.8214 l -74.576269,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.62868214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 101.59174,822.61915 c -49.41176,10 0,19.98566 0,19.98566"
+       id="path3628-3-8-5-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37902451;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 482.97718,968.45852 0,-92.14047"
+       id="path3694-6-6-7"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 915.2639,967.98107 c 49.41176,10 0,20.1683 0,20.1683"
+       id="path3628-33-1-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 915.11189,822.52783 c 49.41176,10 0.0913,20.1683 0.0913,20.1683"
+       id="path3628-33-4-5-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <g
+       style="fill:#ff0000;stroke:#ff0000;display:inline"
+       transform="matrix(0.4830775,0,0,0.4031497,253.65005,651.25496)"
+       id="g4453-9-5-2"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-6-1-8"
+         d="m 16.949153,381.85371 c 65.254237,22.88135 105.932207,29.66101 105.932207,29.66101 l -74.576275,0.84746 c 0,0 2.777516,5.39283 -3.389831,-7.62712 -7.627119,-16.10169 -27.118643,-22.0339 -27.966101,-22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-75-6-9"
+         d="M 16.619503,442.87065 C 81.873743,419.9893 122.55171,413.20964 122.55171,413.20964 l -74.576267,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0.4830775,0,0,0.4031497,254.09339,795.77936)"
+       id="g4453-4"
+       style="fill:#1a1a1a;stroke:#1a1a1a;display:inline"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-4"
+         d="m 16.949153,381.85371 c 65.254237,22.88135 105.932207,29.66101 105.932207,29.66101 l -74.576275,0.84746 c 0,0 2.777516,5.39283 -3.389831,-7.62712 -7.627119,-16.10169 -27.118643,-22.0339 -27.966101,-22.88135 z"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-2"
+         d="M 16.619503,442.87065 C 81.873743,419.9893 122.55171,413.20964 122.55171,413.20964 l -74.576267,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       style="fill:#ff0000;stroke:#ff0000;display:inline"
+       transform="matrix(0.4830775,0,0,0.4031497,693.76585,650.68259)"
+       id="g4453-9-5-2-4"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-6-1-8-5"
+         d="m 16.949153,381.85371 c 65.254237,22.88135 105.932207,29.66101 105.932207,29.66101 l -74.576275,0.84746 c 0,0 2.777516,5.39283 -3.389831,-7.62712 -7.627119,-16.10169 -27.118643,-22.0339 -27.966101,-22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-75-6-9-3"
+         d="M 16.619503,442.87065 C 81.873743,419.9893 122.55171,413.20964 122.55171,413.20964 l -74.576267,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 499.0487,832.53417 c 0.15227,2.92819 -4.14431,6.80524 -21.94438,10.12634"
+       id="path8424-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 498.73077,976.72975 c 0.15227,2.92819 -4.15981,7.2213 -21.95988,10.5424"
+       id="path8424-6-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.37900066;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 61.133198,963.16401 0,-418.99702"
+       id="path3694-6-1"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="top"
+     transform="translate(50.748323,83.101259)">
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 828.21782,558.40935 c 60.42374,-0.15396 86.47059,-4.99999 86.47059,-4.99999"
+       id="path3632-7-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 186.92733,558.40935 641.74713,0"
+       id="path3694-6-9"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.61562,558.40935 c -60.42374,-0.15396 -86.47059,-4.99999 -86.47059,-4.99999"
+       id="path3632-7-4-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 827.85252,703.01424 c 60.42374,-0.15397 87.29251,-5 87.29251,-5"
+       id="path3632-7-5-9"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 184.9885,703.01424 643.68597,0"
+       id="path3694-6-9-6"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.61562,703.01424 c -60.42374,-0.15397 -86.47059,-5 -86.47059,-5"
+       id="path3632-7-4-3-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 390.9385,847.61915 c 60.42374,-0.15397 86.47059,-5 86.47059,-5"
+       id="path3632-7-5-9-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 185.40466,847.61915 205.75219,0"
+       id="path3694-6-9-6-1"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.87968,847.61915 c -60.42374,-0.15397 -86.47059,-5 -86.47059,-5"
+       id="path3632-7-4-3-4-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 390.67444,992.19151 c 60.42374,-0.15397 86.47059,-5 86.47059,-5"
+       id="path3632-7-5-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 185.41812,992.25662 205.66888,0"
+       id="path3694-6-9-0"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 187.61562,992.19151 c -60.42374,-0.15397 -86.47059,-5 -86.47059,-5"
+       id="path3632-7-4-3-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 829.15861,993.07239 c 60.42374,-0.15397 86.47059,-5 86.47059,-5"
+       id="path3632-7-5-2-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 623.90229,993.1375 205.66888,0"
+       id="path3694-6-9-0-6"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 626.09979,993.07239 c -60.42374,-0.15397 -86.47059,-5 -86.47059,-5"
+       id="path3632-7-4-3-0-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 828.91527,847.61915 c 60.42374,-0.15397 86.47059,-5 86.47059,-5"
+       id="path3632-7-5-9-2-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 623.38143,847.61915 205.75219,0"
+       id="path3694-6-9-6-1-7"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       transform="translate(0,-352.36218)"
+       style="fill:none;stroke:#ff0000;stroke-width:6.35272026;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 625.85645,847.61915 c -60.42374,-0.15397 -86.47059,-5 -86.47059,-5"
+       id="path3632-7-4-3-4-0-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 517.71371,479.92412 c -0.15227,2.92819 4.17416,7.07714 21.97423,10.39824"
+       id="path8424-6-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:6.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:24.7123"
+       d="m 517.85975,625.15413 c -0.15227,2.92819 4.2037,7.26873 22.00377,10.58983"
+       id="path8424-6-2-1"
+       sodipodi:nodetypes="cc" />
+    <g
+       style="display:inline"
+       id="g3906"
+       transform="matrix(0,-0.38805784,-0.47878715,0,827.99523,599.05883)"
+       inkscape:export-filename="/home/jsoon/Documents/basis2a.png"
+       inkscape:export-xdpi="34.508049"
+       inkscape:export-ydpi="34.508049">
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-2"
+         d="m 38.818231,690.46547 c 65.254239,22.88135 105.932209,29.66101 105.932209,29.66101 l -74.576279,0.84746 c 0,0 2.77752,5.39283 -3.38983,-7.62712 -7.62712,-16.10169 -27.11864,-22.0339 -27.9661,-22.88135 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.62868214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path3835-7-7"
+         d="M 38.488581,751.48241 C 103.74282,728.60106 144.42079,721.8214 144.42079,721.8214 l -74.576269,-0.84746 c 0,0 2.77751,-5.39283 -3.38984,7.62712 -7.62711,16.10169 -27.11864,22.0339 -27.9661,22.88135 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.62868214;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,128 @@
+link
+<style>
+
+p {    color: #da7071;
+/*  position: fixed;*/
+top: 0;
+left: 30%;
+top: 7%;
+font-size: 2.3em;
+font-family: sans-serif;
+width: 60%;
+left: 20%;
+position: relative;}
+.mail-to {font-size: 1.1em}
+
+.mail-to a{text-decoration: none; color:#da7071;}	
+
+.blink {border-left: 1px;
+animation: blinker2 2.7s linear infinite;
+}
+span.sans {font-family: serif;}
+@keyframes blinker2 {  
+50% { opacity: 0.0; color: red; }
+}
+a.terms{
+	    position: absolute;
+    bottom: 16%;
+    left: 10.7%;
+}
+.nav li a{filter: drop-shadow(2px 3px 1px #2f3238)}
+.terms > br {display: none}
+</style>
+
+<div class="amp-wrap">
+
+<p><&amp; <span class="blink">/</span> States otherwise</p>
+
+
+<br>
+
+
+
+	
+<!-- 		<link rel="stylesheet" type="text/css" href="/app/_assets/css/svg/normalize.css" /> -->	
+
+		<link rel="stylesheet" type="text/css" href="/app/_assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="/app/_assets/css/svg/demo.css" />
+		<link rel="stylesheet" type="text/css" href="/app/_assets/css/svg/circlemenu.css" />
+		<script src="/app/_assets/js/svg/snap.svg-min.js"></script>
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<div class="container-button">
+			<div class="main">
+				
+				<nav id="menu" class="menu">
+					<span class="morph-shape" data-morph-active="M251,150c0,93.5-29.203,143-101,143S49,243.5,49,150C49,52.5,78.203,7,150,7S251,51.5,251,150z">
+						<svg width="100%" height="100%" viewBox="0 0 300 300" preserveAspectRatio="none">
+							<path d="M281,150c0,71.797-59.203,131-131,131S19,221.797,19,150S78.203,19,150,19S281,78.203,281,150z"/>
+						</svg>
+					</span>
+					<button class="trigger"><i class="fa fa-fw fa-share"></i><span>Share This</span></button>
+					<ul class="menu__items">
+						<li><a href="https://www.facebook.com/pages/Codrops/159107397912"><i class="fa fa-fw fa-facebook"></i><span>Codrops on Facebook</span></a></li>
+						<li><a href="http://feeds2.feedburner.com/tympanus"><i class="fa fa-fw fa-rss"></i><span>Codrops RSS Feed</span></a></li>
+						<li><a href="http://www.twitter.com/codrops"><i class="fa fa-fw fa-twitter"></i><span>Codrops on Twitter</span></a></li>
+						<li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-fw fa-google-plus"></i><span>Codrops on Google+</span></a></li>
+						<li><a href="https://github.com/codrops"><i class="fa fa-fw fa-github"></i><span>Codrops on GitHub</span></a></li>
+						<li><a href="http://www.pinterest.com/codrops/codrops/"><i class="fa fa-fw fa-pinterest"></i><span>Codrops on Pinterest</span></a></li>
+						<li><a href="https://www.tumblr.com/tagged/codrops"><i class="fa fa-fw fa-tumblr"></i><span>Codrops on Tumblr</span></a></li>
+						<li><a href="mailto:info@pollen.agency"><i class="fa fa-fw fa-envelope"></i><span>Pollen as Mail</span></a></li>
+					</ul>
+				</nav>
+				
+			</div><!-- /main -->
+		</div><!-- /container -->
+		</div>
+		<script src="app/_assets/js/svg/classie.js"></script>
+		<script>
+			(function() {
+
+				function SVGMenu( el, options ) {
+					this.el = el;
+					this.init();
+				}
+
+				SVGMenu.prototype.init = function() {
+					this.trigger = this.el.querySelector( 'button.trigger' );
+					this.shapeEl = this.el.querySelector( 'span.morph-shape' );
+
+					var s = Snap( this.shapeEl.querySelector( 'svg' ) );
+					this.pathEl = s.select( 'path' );
+					this.paths = {
+						reset : this.pathEl.attr( 'd' ),
+						active : this.shapeEl.getAttribute( 'data-morph-active' )
+					};
+
+					this.isOpen = false;
+
+					this.initEvents();
+				};
+
+				SVGMenu.prototype.initEvents = function() {
+					this.trigger.addEventListener( 'click', this.toggle.bind(this) );
+				};
+
+				SVGMenu.prototype.toggle = function() {
+					var self = this;
+
+					if( this.isOpen ) {
+						classie.remove( this.el, 'menu--open' );
+					}
+					else {
+						setTimeout( function() { classie.add( self.el, 'menu--open' ); }, 175 );
+					}
+					
+					this.pathEl.stop().animate( { 'path' : this.paths.active }, 150, mina.easein, function() {
+						self.pathEl.stop().animate( { 'path' : self.paths.reset }, 800, mina.elastic );
+					} );
+
+					this.isOpen = !this.isOpen;
+				};
+
+				new SVGMenu( document.getElementById( 'menu' ) );
+
+			})();
+		</script>

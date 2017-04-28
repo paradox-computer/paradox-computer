@@ -1,0 +1,373 @@
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, sass/partials/_global.sass */
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 10, sass/partials/_global.sass */
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-color: #748259;
+}
+
+/* line 16, sass/partials/_global.sass */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 22, sass/partials/_global.sass */
+.scope-container {
+  height: 100vh;
+}
+
+/* line 26, sass/partials/_global.sass */
+body > div.container.ng-scope > div {
+  position: absolute;
+  width: 89%;
+  top: 0;
+  margin: 3% 0% 0% 11%;
+  background-color: white;
+  padding: 1%;
+}
+
+/* line 38, sass/partials/_global.sass */
+.blink {
+  border-left: 1px;
+  animation: blinker2 2.7s linear infinite;
+}
+
+/* line 42, sass/partials/_global.sass */
+span.sans {
+  font-family: serif;
+}
+
+@keyframes blinker2 {
+  50% {
+    opacity: 0;
+    color: red;
+  }
+}
+/* line 52, sass/partials/_global.sass */
+a {
+  display: block;
+  color: #EA9C0C;
+}
+
+/* line 58, sass/partials/_global.sass */
+html {
+  background-color: #748259;
+}
+
+/* line 62, sass/partials/_global.sass */
+ul.visited-list > li {
+  display: inline;
+  height: 0;
+}
+
+/* line 66, sass/partials/_global.sass */
+ul.visited-lis > li a {
+  height: 0;
+}
+
+/* line 72, sass/partials/_global.sass */
+.hide-this {
+  display: none;
+}
+
+@-webkit-keyframes fade-down {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  40% {
+    height: 0.7em;
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    height: 1.7em;
+  }
+  display: "";
+}
+@-moz-keyframes fade-down {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  40% {
+    height: 0.7em;
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    height: 1.7em;
+    display: "";
+  }
+}
+@-o-keyframes fade-down {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  40% {
+    height: 0.7em;
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    height: 1.7em;
+    display: "";
+  }
+}
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  40% {
+    height: 0.7em;
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    height: 1.7em;
+    display: "";
+  }
+}
+/* line 124, sass/partials/_global.sass */
+li.fade a {
+  -webkit-animation: fade-down 1.8s ease forwards 1;
+  -moz-animation: fade-down 1.8s ease forwards 1;
+  -o-animation: fade-down 1.8s ease forwards 1;
+  animation: fade-down 1.8s ease forwards 1;
+}
+
+/* line 131, sass/partials/_global.sass */
+.text2 {
+  animation-delay: 4s;
+  opacity: 0;
+}
+
+/* line 134, sass/partials/_global.sass */
+.text3 {
+  animation-delay: 6s;
+  opacity: 0;
+}
+
+/* line 137, sass/partials/_global.sass */
+.text4 {
+  animation-delay: 8s;
+  opacity: 0;
+}
+
+/* line 142, sass/partials/_global.sass */
+#map ~ svg {
+  display: none;
+}
+
+/* line 3, sass/partials/_nav.sass */
+.logo-nav {
+  width: 6%;
+  padding-top: 1%;
+}
+
+/* line 7, sass/partials/_nav.sass */
+.nav {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 13, sass/partials/_nav.sass */
+.nav li {
+  display: inline;
+}
+
+/* line 16, sass/partials/_nav.sass */
+.nav li a {
+  color: white;
+  margin: 1% 2%;
+  filter: drop-shadow(2px 3px 1px white);
+}
+
+/* line 22, sass/partials/_nav.sass */
+.pollen_login {
+  position: absolute;
+  right: 3px;
+  margin-top: -2em;
+  z-index: 50;
+}
+
+/* line 28, sass/partials/_nav.sass */
+body > a {
+  display: inline;
+}
+
+/* line 31, sass/partials/_nav.sass */
+body > a:nth-child(1) {
+  margin-left: 30%;
+}
+
+/* line 34, sass/partials/_nav.sass */
+body > a:nth-child(2) > i {
+  float: right;
+}
+
+/* line 36, sass/partials/_nav.sass */
+header {
+  z-index: 50;
+  margin-top: 3%;
+  width: 8%;
+  padding: 0.5%;
+}
+
+/* line 10, sass/partials/_footer.sass */
+footer ul li a {
+  color: #EEEEEE;
+  font-size: 1.2em;
+}
+
+/* line 14, sass/partials/_footer.sass */
+a.footer-tilde {
+  color: #EA9C0C;
+}
+
+/* line 1, sass/partials/_active.sass */
+ul.active {
+  width: 100%;
+}
+
+/* line 4, sass/partials/_active.sass */
+ul.active li {
+  display: inline;
+}
+
+/* line 8, sass/partials/_active.sass */
+h1.active-head {
+  color: #454545;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+/* line 1, sass/partials/_ampersand.sass */
+.amp-wrap {
+  background: url("_assets/img/1827_williamsburg_map-no-edge.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 1, sass/partials/_focus.sass */
+.server {
+  color: black;
+}
+
+/* line 4, sass/partials/_focus.sass */
+article.server h2 {
+  font-weight: 700;
+}
+
+/* line 10, sass/partials/_focus.sass */
+div.inner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* line 1, sass/partials/_visited.sass */
+.visited-list {
+  list-style: none;
+  display: inline-table;
+  padding: 20px;
+  line-height: 1.3em;
+}
+
+/* line 7, sass/partials/_visited.sass */
+.visited-list:first-of-type {
+  padding-left: 0;
+}
+
+/* line 10, sass/partials/_visited.sass */
+.mailto-pollen {
+  display: inline;
+  padding-left: 1em;
+}
+
+/* line 13, sass/partials/_visited.sass */
+.link-wrap {
+  width: 85%;
+  position: absolute;
+  left: 15%;
+  margin-top: 40px;
+}
