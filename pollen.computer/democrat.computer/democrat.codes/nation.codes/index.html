@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script>
+	       var loc = window.location.href+'';
+	       if (loc.indexOf('http://')==0){
+	           window.location.href = loc.replace('http://','https://');
+	       }
+	</script>
+	<!-- phase 1 -->
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="Website" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>nation.codes</title>
+	<meta content="Jordan Lafland" name="author"><!-- Disable tap highlight on IE -->
+	<meta content="no" name="msapplication-tap-highlight"><!-- Add to homescreen for Chrome on Android -->
+	<meta content="yes" name="mobile-web-app-capable">
+	<meta content="nation.codes" name="application-name">
+	<meta content="FGulN2VF6fkk6EF1YBDJRAynptZUq2aXMuwWLRuT8Zw" name="google-site-verification"><!-- Add to homescreen for Safari on iOS -->
+	<link href="https://nation.codes" rel="canonical"><!-- phase 2 -->
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="nation.codes" name="apple-mobile-web-app-title">
+	<meta content="black" name="msapplication-TileColor"><!-- Color the status bar on mobile devices -->
+	<meta content="black" name="theme-color"><!-- phase 2 -->
+	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+	<meta content="nation.codes" name="title">
+	<meta content="nation.codes" name="description">
+	<meta content="nation.codes" name="keywords"><!--  FB Open Graph meta tags -->
+	<meta content="nation.codes" property="og:title">
+	<meta content="nation.codes" property="og:description">
+	<meta content="summary" property="og:type">
+	<meta content="favicon.png" property="og:image">
+	<meta content="https://nation.codes" property="og:url">
+	<meta content="nation.codes" property="og:site_name"><!-- Twitter card meta tags -->
+	<meta content="summary" property="twitter:card">
+	<meta content="https://nation.codes" name="twitter:url">
+	<meta content="nation.codes" property="twitter:title">
+	<meta content="nation.codes" name="twitter:description">
+
+
+
+	<script data-require="angular.js@1.2.10" data-semver="1.2.10" src="https://code.angularjs.org/1.2.10/angular.js">
+	</script>
+	<script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js">
+	</script>
+	<link href="app/app.css" rel="stylesheet">
+
+		
+
+</head>
+<body>
+<object data="https://democrat.computer/democratic-seal.svg" 
+		type="" 
+		style="width: 10%; max-width: 300px; min-width: 50px;">
+</object>
+
+    <div class="container" ng-app="app">
+      <header ng-include="'app/templates/nav.html'"></header>
+      <div ui-view></div>
+      <footer ng-include="'app/templates/footer.html'"></footer>
+    </div>
+
+  <script src="app/app.js"></script>
+  <script src="app/controllers/democratCtrl.js"></script>
+  <script src="app/controllers/workCtrl.js"></script>
+  <script src="app/controllers/missionCtrl.js"></script>
+  <script src="app/controllers/newsCtrl.js"></script>
+  <script src="app/controllers/contactCtrl.js"></script>
+
+</body>
+</html>
