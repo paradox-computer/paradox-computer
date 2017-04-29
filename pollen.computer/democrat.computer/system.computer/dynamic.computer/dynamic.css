@@ -1,0 +1,11 @@
+* {
+   font-family: sans-serif;
+}
+
+object.self-dual-graph{
+    position: absolute;
+    top: 18vh;
+    width: 26vh;
+    right: 1%;
+    opacity: 0.9;
+}

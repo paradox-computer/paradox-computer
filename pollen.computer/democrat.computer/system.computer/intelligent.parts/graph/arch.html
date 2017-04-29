@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<div class="column">
+  <h1>Arc Padding II</h1>
+  <div class="index">
+    <iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="./index_files/saved_resource.html" marginwidth="0" marginheight="0" style="height:500px;width: 100%;" scrolling="no"></iframe>
+  </div>
+</div>
+
+<script src="./index_files/d3.v3.min.js"></script>
+
+<script>
+
+var gist = {"public":true,"sha":"769f417bc12793506a4c92837335268c8c2d21bf","files":{".block":{"language":null,"type":"text/plain","filename":".block","size":17,"sha":"703d310b399098a243a76a50bc209167e924cfd2"},"README.md":{"language":"Markdown","type":"text/plain","filename":"README.md","size":82,"sha":"fba05265fac7a562972db6c50d748f30acd970d2"},"index.html":{"language":"HTML","type":"text/html","filename":"index.html","size":969,"sha":"5aef748e93bb6ecea1c44ffd56abb31823fc5ada"},"thumbnail.png":{"language":null,"type":"image/png","filename":"thumbnail.png","size":10561,"sha":"0283b892a70bc559b4543dd6f31659b64a8a8d61"}},"created_at":"2015-12-29T23:30:50Z","updated_at":"2016-02-09T01:47:55Z","description":"Arc Padding II","owner":{"login":"mbostock"},"id":"f37b07b92633781a46f7"};
+
+var files = d3.values(gist.files);
+
+d3.select(".gist-readme")
+    .data(files, function(d) { return d ? d.filename : this.getAttribute("data-key"); })
+    .each(function(d) {
+      var readme = d3.select(this);
+      d3.text("/mbostock/raw/f37b07b92633781a46f7/769f417bc12793506a4c92837335268c8c2d21bf/" + d.filename, function(error, content) {
+        if (error) content = "Sorry, an error occurred.";
+        readme.html(new Showdown.converter().makeHtml(content));
+        readme.selectAll("code").each(function() { hljs.highlightBlock(this); });
+      });
+    });
+
+d3.selectAll(".gist-source")
+    .data(files, function(d) { return d ? d.filename : this.getAttribute("data-key"); })
+  .select("code")
+    .attr("class", function(d) { return d.language && (d.language === "JSON" ? "javascript" : d.language.toLowerCase()); })
+    .each(function(d) {
+      var code = d3.select(this);
+      d3.text("/mbostock/raw/f37b07b92633781a46f7/769f417bc12793506a4c92837335268c8c2d21bf/" + (d.filename === "index.html" ? "" : d.filename), function(error, content) {
+        if (error) content = "Sorry, an error occurred.";
+        code.text(content);
+        hljs.highlightBlock(code.node());
+      });
+    });
+
+</script>
+
+<script>
+
+GoogleAnalyticsObject = "ga", ga = function() { ga.q.push(arguments); }, ga.q = [], ga.l = +new Date;
+ga("create", "UA-48272912-1", "auto");
+ga("send", "pageview");
+
+</script>
+<script async="" src="./index_files/analytics.js"></script>
+</body></html>

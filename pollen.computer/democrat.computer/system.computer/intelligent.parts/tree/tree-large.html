@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Pollen Agency: Computer</title>
+
+    <style>
+	
+	.node {
+		cursor: pointer;
+	}
+
+	.node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 3px;
+	}
+
+	.node text {
+	  font: 12px sans-serif;
+	}
+
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+	}
+	
+    </style>
+
+  </head>
+
+  <body>
+
+<!-- load the d3.js library -->	
+<script src="https://d3js.org/d3.v3.min.js"></script>
+	
+<script>
+
+
+var treeData3 = [
+
+   {
+
+      "name": " R Levy",
+
+      "parent": null,
+
+      "children": [
+
+
+               {
+
+            "name": "T Hawkey ~ M DIR EVP C",
+
+            "parent": "R Levy",
+
+            "children": [
+
+               {
+
+                  "name": "??",
+
+                  "parent": "M Bornstein ~ Dir QA"
+
+               }
+
+            ]
+
+         },
+                  {
+
+            "name": "M Hall ~DIR CC SVP BP",
+
+            "parent": "R Levy",
+
+            "children": [
+
+               {
+
+                  "name": "??",
+
+                  "parent": "M Bornstein ~ Dir QA"
+
+               }
+
+            ]
+
+         },
+                  {
+
+            "name": "D Krippahne ~ C DIR VP C",
+
+            "parent": "R Levy",
+
+            "children": [
+
+               {
+
+                  "name": "??",
+
+                  "parent": "M Bornstein ~ Dir QA"
+
+               }
+
+            ]
+
+         },
+
+                  {
+
+            "name": "A Rosner ~ C DIR SVP C",
+
+            "parent": "R Levy",
+
+            "children": [
+
+               {
+
+                  "name": "??",
+
+                  "parent": "A Rosner ~ C DIR SVP C"
+
+               }
+
+            ]
+
+         },
+
+                  {
+
+            "name": "J Bergdahl ~ Art SUP",
+
+            "parent": "R Levy",
+
+            "children": [
+
+               {
+
+                  "name": "??",
+
+                  "parent": "J Bergdahl ~ Art SUP"
+
+               }
+
+            ]
+
+         },
+         {
+
+            "name": "J Tobin ~ C DIR EVP",
+
+            "parent": "R Levy",
+
+            "children": [
+
+               {
+
+                  "name": "??",
+
+                  "parent": "J Tobin ~ C DIR EV"
+
+               }
+
+            ]
+
+         },
+         {
+
+            "name": "M Devlin ~ C DIR EVP",
+
+            "parent": "R Levy",
+
+            "children": [
+
+                 {
+
+                  "name": "J Cameron ~ C DIR VP",
+
+                  "parent": "S Gjokaj ~ DIR ENG & OPS ",
+                  "children" : [
+                  {
+                    "name": "J Walsh ~ ASSOC C DIR",
+                    "parent": "J Siemienski ~  VP"
+                  },
+
+                     {
+                    "name": "M Allen ~ Group Art SUP",
+                    "parent": "J Siemienski ~  VP"
+                  }
+
+
+                  ]
+
+               },
+
+
+               {
+
+                  "name": "??",
+
+                  "parent": "S Gjokaj ~ DIR ENG & OPS"
+
+               }
+
+            ]
+
+         },
+                  {
+
+            "name": "C Park ~ C DIR",
+
+            "parent": "R Levy"
+
+           
+
+         },
+                       {
+
+            "name": "C Brown ~ Copywriter",
+
+            "parent": "R Levy"
+
+           
+
+         },
+
+                                {
+
+            "name": "D Matera ~ C DIR EVP",
+
+            "parent": "J Siemienski ~  VP",
+
+            "children": [
+
+               {
+
+                  "name": "L Ryan ~ Sir Art Dir",
+
+                  "parent": "M Bornstein ~ Dir QA"
+
+               }
+
+            ]
+
+         },
+            
+                     {
+
+            "name": "C Rothbard ~ C DIR EVP",
+
+            "parent": "J Siemienski ~  VP",
+
+            "children": [
+
+               {
+
+                  "name": "C Sall ~  Art DIR",
+
+                  "parent": "C Rothbard ~ C DIR EVP"
+
+               },
+              {
+
+                  "name": "?? ",
+
+                  "parent": "C Rothbard ~ C DIR EVP"
+
+               }
+               ,
+              {
+
+                  "name": "?? ",
+
+                  "parent": "C Rothbard ~ C DIR EVP"
+
+               }
+
+            ]
+
+         },
+              {
+
+            "name": "P Tobin ~ C DIR EVP",
+
+            "parent": "R Levy",
+
+            "children": [
+
+               {
+
+                  "name": "Viet Le ~  SR Art DIR",
+
+                  "parent": "P Tobin ~ C DIR EVP"
+
+               },
+              {
+
+                  "name": "??",
+
+                  "parent": "J Couto ~ DIR CREATIVE TECH"
+
+               }
+               ,
+              {
+
+                  "name": "??",
+
+                  "parent": "P Tobin ~ C DIR EVP"
+
+               }
+
+            ]
+
+         }
+
+      ]
+
+   }
+
+];
+
+
+
+
+
+
+
+
+
+
+
+
+var treeData = [
+
+   {
+
+      "name": "G Johnson ~ ",
+
+      "parent": null,
+
+      "children": [
+
+
+         {
+
+      "name": "J Maroney ~ DIR UX VP",
+
+      "parent": "G Johnson ~",
+
+      "children": [
+
+         {
+
+            "name": "P March ~  ASSOC DIR UX",
+
+            "parent": "J Maroney ~ DIR UX VP"
+
+         },
+
+         {
+
+            "name": "S Alabardo ~  SR UX Arch",
+
+            "parent": "J Maroney ~ DIR UX VP"
+
+         },
+        {
+
+            "name": "J Pagan ~  SR UX Arch",
+
+            "parent": "J Maroney ~ DIR UX VP"
+
+         },
+          {
+
+            "name": "S Schiller ~  UX Arch",
+
+            "parent": "J Maroney ~ DIR UX VP"
+
+         },
+         {
+
+            "name": "M Klein ~  UX Arch",
+
+            "parent": "J Maroney ~ DIR UX VP"
+
+         },
+
+
+      ]
+
+   },
+
+
+
+
+
+   {
+
+      "name": "J Graiff~ DIR TECH VP",
+
+      "parent": null,
+
+      "children": [
+
+         {
+
+            "name": "J Lehman ~  SR C TECH",
+
+            "parent": "Tile presents Pollen"
+
+         }
+
+      ]
+
+   },
+
+
+      {
+
+      "name": "J Siemienski ~ DIR TECH VP",
+
+      "parent": null,
+
+      "children": [
+
+         {
+
+            "name": "S Gjokaj ~ DIR ENG & OPS ",
+
+            "parent": "J Siemienski ~  VP",
+
+
+            "children": [
+
+                 {
+
+                  "name": "K Harris ~ SR OPS ENG",
+
+                  "parent": "S Gjokaj ~ DIR ENG & OPS"
+
+               },
+
+
+               {
+
+                  "name": "C Fernandez SR OPS ENG",
+
+                  "parent": "S Gjokaj ~ DIR ENG & OPS"
+
+               },
+              {
+
+                  "name": "J Yeung ~ OPS ENG",
+
+                  "parent": "S Gjokaj ~ DIR ENG & OPS"
+
+               }
+
+               ,
+              {
+
+                  "name": "M Tchalim ~ OPS ENG",
+
+                  "parent": "S Gjokaj ~ DIR ENG & OPS"
+
+               }
+
+            ]
+
+         },
+                  {
+
+            "name": "M Bornstein ~ DIR Q/A",
+
+            "parent": "J Siemienski ~  VP",
+
+            "children": [
+
+               {
+
+                  "name": "I Julio ~  Q/A Analyst",
+
+                  "parent": "M Bornstein ~ Dir Q/A"
+
+               }
+
+            ]
+
+         },
+                     {
+
+            "name": "J Couto ~ DIR C TECH",
+
+            "parent": "J Siemienski ~  VP",
+
+            "children": [
+
+               {
+
+                  "name": "S Mari ~  SR CREATIVE TECH",
+
+                  "parent": "M Bornstein ~ Dir QA"
+
+               },
+              {
+
+                  "name": "B Ozmucur ~ CREATIVE TECH",
+
+                  "parent": "J Couto ~ DIR CREATIVE TECH"
+
+               }
+               ,
+              {
+
+                  "name": "J Lafland ~ JR CREATIVE TECH",
+
+                  "parent": "J Couto ~ DIR CREATIVE TECH"
+
+               }
+
+            ]
+
+         }
+
+      ]
+
+   },
+
+
+
+
+
+
+
+
+
+   {
+
+      "name": "C Tempas ~ DIR IP SVP ",
+
+      "parent": null,
+
+      "children": [
+
+                         {
+
+            "name": "T Fode ~ OPERATIONS SUPER",
+
+            "parent": "Tile presents Pollen",
+
+            "children": [
+
+               {
+
+                  "name": " D Riley ~ ASSOC P",
+
+                  "parent": "T Forde"
+
+               },
+
+                  {
+
+                  "name": " A Giustiniani  ~ ASSOC IP",
+
+                  "parent": "T Forde "
+
+               },
+
+                  {
+
+                  "name": " M Brown ~ ASSOC P",
+
+                  "parent": "T Forde "
+
+               },
+
+           {
+
+                  "name": "G Micael ~ IP",
+
+                  "parent": "T Forde "
+
+               },
+
+                    {
+
+                  "name": "A Isom ~ ASSOC P",
+
+                  "parent": "T Forde "
+
+               },
+
+                        {
+
+                  "name": "L Burgess ~ ASSOC P",
+
+                  "parent": "T Forde "
+
+               },
+
+                        {
+
+                  "name": "E Schraut ~ ASSOC P",
+
+                  "parent": "T Forde "
+
+               },
+
+                              {
+
+                  "name": "P Chung ~ ASSOC P",
+
+                  "parent": "T Forde "
+
+               },
+
+                                 {
+
+                  "name": "S Francis ~ ASSOC P",
+
+                  "parent": "T Forde "
+
+               },
+
+                         {
+
+                  "name": "P Henry ~ ASSOC IP",
+
+                  "parent": "T Forde "
+
+               },
+
+
+                         {
+
+                  "name": "A Marcano ~ ASSOC P",
+
+                  "parent": "T Forde "
+
+               },
+                  
+                  
+                  
+                  
+                      
+                      
+
+                  
+                  
+                      
+                      
+                                         
+                      
+
+
+
+      ]
+    },
+
+                   {
+
+            "name": "L Albright~ ASSOC DIR",
+
+            "parent": "Tile presents Pollen",
+
+            "children": [
+
+               {
+
+                  "name": " K Behan ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+               },
+                           {
+
+                  "name": "J Wetter ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+               },
+               
+                           {
+
+                  "name": "J Thomas ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+               },
+
+               
+                           {
+
+                  "name": "L Bradley ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+               },
+
+
+
+      ]
+    },
+
+             {
+
+            "name": "E Dang~ ASSOC DIR",
+
+            "parent": "Tile presents Pollen",
+
+            "children": [
+
+               {
+
+                  "name": " T Esposito ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+               },
+                 {
+
+                  "name": " B Moffat ~ IP",
+
+                  "parent": "pollen.computer"
+
+               },
+                {
+
+                  "name": " J Rosiak ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+               },
+                {
+
+                  "name": " K Currie ~ IP",
+
+                  "parent": "pollen.computer"
+
+               },
+
+      ]
+    },
+
+        {
+
+            "name": "M Dumont ~ ASSOC DIR",
+
+            "parent": "Tile presents Pollen",
+
+            "children": [
+
+               {
+
+                  "name": "S Ito ~ SR DP",
+
+                  "parent": "pollen.computer  "
+
+               },
+                   {
+
+                  "name": "K Ardolino ~ SR DP",
+
+                  "parent": "pollen.computer  ",
+                            "children": [
+
+               {
+
+                  "name": "B Lee ~ DP",
+
+                  "parent": "pollen.computer"
+
+               }
+
+      ]
+
+               },
+
+
+      ]
+    },
+
+       {
+
+            "name": "C Gennaro ~ ASSOC DIR",
+
+            "parent": "Tile presents Pollen",
+
+            "children": [
+
+               {
+
+                  "name": "J Corrella ~ SR DP",
+
+                  "parent": "pollen.computer Sterling"
+
+               },
+                       {
+
+                  "name": "R Sterling ~  IP",
+
+                  "parent": "Gennaro"
+
+               },
+                {
+
+                  "name": "L Cassar ~  IP",
+
+                  "parent": "Gennaro"
+
+               },
+
+      ]
+    },
+
+         {
+
+            "name": "M Pine ~ ASSOC DIR",
+
+            "parent": "Tile presents Pollen",
+
+            "children": [
+
+               {
+
+                  "name": "A. Lobel ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+               },
+
+               {
+
+                  "name": "T Person ~ SR DP",
+
+                  "parent": "pollen.computer"
+
+                        
+
+                 
+
+               },
+                          
+            {
+
+                  "name": "P Tierney ~ SR DP",
+
+                  "parent": "Top Level",
+
+                  "children": [
+
+                     {
+
+                        "name": "K Jenkins",
+
+                        "parent": "polllen.agency"
+
+                     }
+
+                  ]
+
+               },
+
+               {
+
+                  "name": "E Naylor ~ DP",
+
+                  "parent": "Top Level",
+
+                  "children": [
+
+                     {
+
+                        "name": "E Krolow",
+
+                        "parent": "polllen.agency"
+
+                     }
+
+                  ]
+
+               },
+
+               {
+
+                  "name": "F Chan ~ DP",
+
+                  "parent": "pollen.computer"
+
+               }
+
+             
+              
+
+            ]
+
+         }
+
+      ]
+
+   },
+
+
+   {
+
+      "name": "K Lantz ~ DIR PP SVP",
+
+      "parent": null,
+
+      "children": [
+
+         {
+
+            "name": "E Brennan ~ DIR PP VP",
+
+            "parent": "K Lantz ~ DIR PP SVP"
+
+         },
+              {
+
+            "name": "B Barozzi ~  DIR P SERV",
+
+            "parent": "K Lantz ~ DIR PP SVP"
+
+         },
+              {
+
+            "name": "A Bellacicco ~  DIG SPCLIST",
+
+            "parent": "K Lantz ~ DIR PP SVP"
+
+         }
+
+      ]
+
+   },
+
+
+
+   {
+
+      "name": "K Richards ~ DIR ES SVP",
+
+      "parent": null,
+
+      "children": [
+
+         {
+
+            "name": "M Benedetto ~  EDIT M",
+
+            "parent": "K Richards ~ DIR ES ",
+
+      "children": [
+
+         {
+
+
+   "name": "K Behrens ~  SR MED EDIT",
+
+            "parent": "M Benedetto ~  EDIT M "
+
+
+         },
+                  {
+
+
+   "name": "M Massey ~  SR EDIT",
+
+            "parent": "M Benedetto ~  EDIT M"
+
+
+         },
+         
+                  {
+
+
+   "name": "A Lopez ~  SR EDIT",
+
+            "parent": "M Benedetto ~  EDIT M"
+
+
+         },
+         
+                  {
+
+
+   "name": "M Benedetto ~  EDIT M",
+
+            "parent": "M Benedetto ~  EDIT M "
+
+
+         },
+         
+                  {
+
+
+   "name": "B Benedetto ~  EDIT M",
+
+            "parent": "M Benedetto ~  EDIT M"
+
+         },
+         
+                  {
+
+
+   "name": "S Rafimi ~  EDIT ",
+
+            "parent": "M Benedetto ~  EDIT M"
+
+
+         },
+         
+
+         ]
+
+
+
+         },
+                  {
+
+            "name": "K Pizarro ~  SR EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         },
+                  {
+
+            "name": "M Ameen ~  EDIT Mgr",
+
+            "parent": "K Richards ~ DIR ES ",
+
+
+
+
+
+      "children": [
+
+         {
+
+
+   "name": "S Talbot ~  EDIT",
+
+            "parent": "M Ameen ~  EDIT Mgr "
+
+
+         },
+                  {
+
+
+   "name": "L Mennella ~  EDIT",
+
+            "parent": "M Ameen ~  EDIT Mgr"
+
+
+         },
+         
+                  {
+
+
+   "name": "A Piriz ~  EDIT",
+
+            "parent": "M Ameen ~  EDIT Mgr"
+
+
+         },
+         
+                  {
+
+
+   "name": "P Res ~ SR MED EDIT",
+
+            "parent": "M Ameen ~  EDIT Mgr "
+
+
+         },
+         
+                  {
+
+
+   "name": "T Chao ~  ASSOC EDIT",
+
+            "parent": "M Ameen ~  EDIT Mgr"
+
+         },
+         
+                  {
+
+
+   "name": "M Barron ~  SR COPY EDIT ",
+
+            "parent": "M Ameen ~  EDIT Mgr"
+
+
+         },
+         
+
+         ]
+
+
+
+
+
+
+
+
+
+
+
+         },
+                  {
+
+            "name": "F Fritznel ~  AD EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         },
+                  {
+
+            "name": "M Plank ~  SR EDIT ",
+
+            "parent": "K Richards ~ DIR ES "
+
+         },
+                  {
+
+            "name": "S Silleck ~  SR C TECH",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "M Jaworski ~  ASSOC DIR E",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "D Balopole ~  EDIT DIR",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "S Wolf ~  SR EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "A Moyer ~  Edit M",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "M Radovich~  Edit",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "K Paulsen ~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "L Sullivan~  EDIT DIR",
+
+            "parent": "K Richards ~ DIR ES ",
+
+
+
+
+      "children": [
+
+
+               {
+
+            "name": "A Burke Hall ~ EDIT Mgr",
+
+            "parent": "L Sullivan~  EDIT DIR"
+
+
+
+
+
+
+         }]
+       }
+         ,
+                  {
+
+            "name": "A Anderson~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "G Trudo ~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "M Hall ~  EDIT Mgr",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "M Aronoff ~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "G Schamm ~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "N Klemas ~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "W Newbern ~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+         ,
+                  {
+
+            "name": "G Gibson ~  EDIT",
+
+            "parent": "K Richards ~ DIR ES "
+
+         }
+      
+
+
+      ]
+
+   }
+   ]}
+
+];
+
+
+
+// ************** Generate the tree diagram FCB DEV *****************
+var margin = {top: 20, right: 120, bottom: 20, left: 120},
+  width = 960 - margin.right - margin.left,
+  height = 500 - margin.top - margin.bottom;
+  
+var i = 0,
+  duration = 750,
+  root;
+
+var tree = d3.layout.tree()
+  .size([height, width]);
+
+var diagonal = d3.svg.diagonal()
+  .projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+  .attr("width", width + margin.right + margin.left)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+root = treeData3[0];
+root.x0 = height / 2;
+root.y0 = 0;
+  
+update(root);
+
+d3.select(self.frameElement).style("height", "500px");
+
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+    links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodes…
+  var node = svg.selectAll("g.node")
+    .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("g")
+    .attr("class", "node")
+    .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+    .on("click", click);
+
+  nodeEnter.append("circle")
+    .attr("r", 1e-6)
+    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeEnter.append("text")
+    .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+    .attr("dy", ".35em")
+    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+    .text(function(d) { return d.name; })
+    .style("fill-opacity", 1e-6);
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+    .duration(duration)
+    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+    .attr("r", 10)
+    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeUpdate.select("text")
+    .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+    .duration(duration)
+    .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+    .remove();
+
+  nodeExit.select("circle")
+    .attr("r", 1e-6);
+
+  nodeExit.select("text")
+    .style("fill-opacity", 1e-6);
+
+  // Update the links…
+  var link = svg.selectAll("path.link")
+    .data(links, function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+    .attr("class", "link")
+    .attr("d", function(d) {
+    var o = {x: source.x0, y: source.y0};
+    return diagonal({source: o, target: o});
+    });
+
+  // Transition links to their new position.
+  link.transition()
+    .duration(duration)
+    .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+    .duration(duration)
+    .attr("d", function(d) {
+    var o = {x: source.x, y: source.y};
+    return diagonal({source: o, target: o});
+    })
+    .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+  d.x0 = d.x;
+  d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+  d._children = d.children;
+  d.children = null;
+  } else {
+  d.children = d._children;
+  d._children = null;
+  }
+  update(d);
+}
+
+
+
+
+
+
+
+
+
+
+
+// ************** Generate the tree diagram	 *****************
+var margin = {top: 20, right: 120, bottom: 20, left: 120},
+	width = 960 - margin.right - margin.left,
+	height = 500 - margin.top - margin.bottom;
+	
+var i = 0,
+	duration = 750,
+	root;
+
+var tree = d3.layout.tree()
+	.size([height, width]);
+
+var diagonal = d3.svg.diagonal()
+	.projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+	.attr("width", width + margin.right + margin.left)
+	.attr("height", height + margin.top + margin.bottom)
+  .append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+root = treeData[0];
+root.x0 = height / 2;
+root.y0 = 0;
+  
+update(root);
+
+d3.select(self.frameElement).style("height", "500px");
+
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+	  links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodes…
+  var node = svg.selectAll("g.node")
+	  .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("g")
+	  .attr("class", "node")
+	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+	  .on("click", click);
+
+  nodeEnter.append("circle")
+	  .attr("r", 1e-6)
+	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeEnter.append("text")
+	  .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+	  .text(function(d) { return d.name; })
+	  .style("fill-opacity", 1e-6);
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+	  .duration(duration)
+	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+	  .attr("r", 10)
+	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeUpdate.select("text")
+	  .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+	  .duration(duration)
+	  .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+	  .remove();
+
+  nodeExit.select("circle")
+	  .attr("r", 1e-6);
+
+  nodeExit.select("text")
+	  .style("fill-opacity", 1e-6);
+
+  // Update the links…
+  var link = svg.selectAll("path.link")
+	  .data(links, function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+	  .attr("class", "link")
+	  .attr("d", function(d) {
+		var o = {x: source.x0, y: source.y0};
+		return diagonal({source: o, target: o});
+	  });
+
+  // Transition links to their new position.
+  link.transition()
+	  .duration(duration)
+	  .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+	  .duration(duration)
+	  .attr("d", function(d) {
+		var o = {x: source.x, y: source.y};
+		return diagonal({source: o, target: o});
+	  })
+	  .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+	d.x0 = d.x;
+	d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+	d._children = d.children;
+	d.children = null;
+  } else {
+	d.children = d._children;
+	d._children = null;
+  }
+  update(d);
+}
+
+</script>
+	
+  </body>
+</html>
