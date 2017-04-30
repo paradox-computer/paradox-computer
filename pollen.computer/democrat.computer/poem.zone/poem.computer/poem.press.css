@@ -1,0 +1,179 @@
+/* set base scale 0.0 - 1.0 
+@-webkit-viewport { width: device-width; scale: 1; }
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+ */
+    * {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -o-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .select {
+        -webkit-user-select: initial;
+        -moz-user-select: initial;
+        -ms-user-select: initial;
+        user-select: initial;
+    }
+    body, html {
+        padding: 0;
+        margin: 0;
+        font-size: 1.2em;
+        font-family: sans-serif;
+        color: #454545;
+        background-color: whitesmoke;
+        -webkit-font-smoothing: antialiased;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+    /*modular or tpypgraphic scale: 'classic'  (r = 2, n = 5)*/
+    h1 {font-size: 2em}
+    h2 {font-size: 1.7411em}
+    h3 {font-size: 1.5157em}
+    h4 {font-size: 1.3195em}
+    h5 {font-size: 1.1487em}
+    body, p, ul {font-size: 1em }
+    sup, sub {font-size: .8706em}
+
+    article {
+        background-color: white;
+        width: 80%;
+        margin-left: 10%;
+        box-shadow: 0 20px 10px -10px rgba(150, 150, 150, 0.8);
+    }
+    img {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    h2 {
+        font-size: 1.33em;
+        margin: -1em 8% 0 8%;
+        padding-top: 22px;
+        cursor: default;
+    }
+    sup {
+        line-height: 0;
+    }
+    p {
+        line-height: 1.2;
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, .2) 1px, transparent 1px);
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, .2) 1px, transparent 1px);
+        background-image: linear-gradient(rgba(0, 0, 0, .2) 1px, transparent 1px);
+        background-size: 100% 1.2em;
+        background-position: 0 1em;
+        background-origin: content-box;
+        font-size: 100%;
+        padding: 1em auto;
+        margin: 0 auto;
+        width: 78%;
+        cursor: default;
+    }
+    h4 {
+        font-size: 1.3em;
+        font-style: italic;
+        font-weight: 100;
+        text-align: right;
+        margin-right: 1.5em;
+        cursor: default;
+    }
+    .date { text-align: right;}
+    .notes {cursor: default;}
+    .no-break {white-space: nowrap}
+    a {
+        text-decoration: none;
+        color: #7ca065;
+        cursor: pointer;
+    }
+    object {
+        width: 5%;
+        min-width: 50px;
+    }
+    article>iframe {
+        width: 50%;
+        margin-left: 25%;
+    }
+    /*  end part 1 */
+    /* extras */
+
+/* elegant hover */
+.social-icons:hover { border: 2px solid transparent; }
+/* durable drop shadow */
+.blur { -webkit-filter: drop-shadow(0 0 7px #3FF9F9); }
+
+.flipH {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+/* Simple Preloader with js  author:unkown */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+    opacity: .8;
+}
+
+#status {
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("../images/dragonwheel.gif"); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    z-index: 99;
+    -webkit-filter: drop-shadow(0 0 7px #3FF9F9);
+}
+
+
+
+    /* tooltip on title attribute */
+    /* by Andres Ilich */
+    
+    a:hover {
+        position: relative;
+    }
+    a[title]:hover:after {
+        content: attr(title);
+        padding: 4px 8px;
+        color: #333;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 20;
+        white-space: nowrap;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -moz-box-shadow: 0px 0px 4px #222;
+        -webkit-box-shadow: 0px 0px 4px #222;
+        box-shadow: 0px 0px 4px #222;
+        background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeeeee), color-stop(1, #cccccc));
+        background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+    }
